@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `ingreso_salas` (
-  `id_ingreso` char(10) NOT NULL,
+  `id_ingreso` char(100) NOT NULL,
   `fecha` date DEFAULT NULL,
   `hora_entrada` time DEFAULT NULL,
   `hora_salida` time DEFAULT NULL,
